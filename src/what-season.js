@@ -4,7 +4,7 @@ module.exports = function getSeason(date) {
         return 'Unable to determine the time of year!';
     }
     month = date.getMonth();
-    //console.log(typeof date, ); расскоментировать и будет работать, а без нет)
+    //console.log(isNaN(date));расскоментировать и будет работать, а без нет)
     if (month >= 2 && month <= 4) {
         return 'spring';
     } else {
