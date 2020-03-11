@@ -5,7 +5,6 @@ module.exports = function createDreamTeam(arr) {
     } else {
         var answer = "";
         for (var j = 0; j < arr.length; j++) {
-
             if (typeof arr[j] == "string") {
                 for (var i = 0; i < arr[j].length; i++) {
                     if (arr[j][i] != " ") {
